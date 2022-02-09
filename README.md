@@ -1,13 +1,7 @@
 # Map-of-Movies
 This repository is made in order to build interactive worldwide maps with Python programing language using folium library.
 There are 2 main files - locations.list and map.py.
-The first one is the example of the file that contains information about movies in a certain format, specifically:
-locations.list:
-  ...
-  Young Pioneers (2015)					Maastricht, Limburg, Netherlands
-  ...
-          ^          ^                           ^
-        Title | Year of realese | A place where movie was filmed
+The first one is the example of the file that contains information about movies in a certain format, specifically: Title | Year of realese | A place where movie was filmed.
  The second one is a Python script that processes the data contained locations.list and builds a map with OpenStreetMap using folium library.
  The map is a html-file that will automatically be opened when map.py will finish it's work.
  To execute map.py, run your console, and enter the following:
